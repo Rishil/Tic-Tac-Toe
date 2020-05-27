@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+    <head>
+    <title>Tic Tac Toe</title>
+    <link rel=stylesheet href="styles.css">
+</head>
+<body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <div class="player-input" id="playerInput">
+        <label for="player-1-input">Player 1</label>
+        <input type="text" id="player-1-input" placeholder="Enter a name">
+        <label for="player-2-input">Player 2</label>
+        <input type="text" id="player-2-input" placeholder="Enter a name">
+        <button id="continueBtn" onClick="startTwoPlayer(false)">Continue</button>
+    </div>
+
+    <h1 id="gameMode">Choose a Game Mode</h1>
+
+    <div class="menu" id="menu">
+        <button id="pvpButton" onClick="enterPlayerNames()">Player vs Player</button>
+        <button id="pvAiButton" onClick="startAi()">Player vs AI</button>
+    </div>
+
+    <h2 id="currentTurnText"> </h2>
+
+    <div id="playArea">
+        <div id="player-1-score" class="player-1-score">0</div>
+        <div id="player-2-score"class="player-2-score">0</div>
+    </div>
+    <p>
+    <button class="set-difficulty" id="setDifficulty" onClick="setDifficulty()">Set Difficulty</button>
+    </p>
+
+    <button class="back-to-main-menu" id="backToMainMenu" onClick="showMainMenu()">Back to Main Menu</button>
+    <button class="restart-btn" id="restartBtn" onClick="playAgain()">Play Again</button>
+
+    <div class="complete-message" id="completeMessage">
+        <div class="message-text" id="completeMessageText">Test message</div>
+        <button class="ok-btn"id="okButton" onClick="hideAlertMessage()">OK</button>
+    </div>
+
+    <button class="set-beginner" id="setBeginner" onClick="setBeginner()">Beginner</button>
+    <button class="set-advanced" id="setAdvanced" onClick="setAdvanced()">Advanced</button>
+    <script src="script.js"></script>
+</body>
+</html>

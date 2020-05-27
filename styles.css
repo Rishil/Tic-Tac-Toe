@@ -1,0 +1,227 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: #14BDAC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 5rem;
+}
+.student-no {
+    font-size: 2rem;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu button {
+    color: white;
+    font-size: 2rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    margin: .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.menu button:hover{
+    background-color: black;
+}
+
+.player-input {
+    display: none;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+
+}
+
+.player-input input {
+    font-size: 1.5rem;
+}
+
+.player-input button {
+    color: white;
+    font-size: 2rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    margin: .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.player-input button:hover{
+    background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  border: none;
+}
+
+td {
+  background-color: #14BDAC;
+  border: 10px solid;
+  font-size: 80px;
+  color:#0DA192;
+}
+
+.back-to-main-menu {
+    visibility: hidden;
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.back-to-main-menu:hover{
+    background-color: black;
+}
+
+.set-difficulty {
+    visibility: hidden;
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkslategray;
+    padding: .1rem .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.set-difficulty:hover{
+    background-color: black;
+}
+
+.set-beginner{
+    color: white;
+    font-size: 2rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.set-beginner:hover{
+    background-color: black;
+}
+
+.set-advanced {
+    color: white;
+    font-size: 2rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.set-advanced:hover{
+    background-color: black;
+}
+
+.restart-btn {
+    visibility: hidden;
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkslategray;
+    padding: .5rem .5rem;
+    margin: .2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.restart-btn:hover{
+    background-color: black;
+}
+
+.borderless-top-left {
+     border-top: none;
+     border-left: none;
+}
+
+.borderless-top-right {
+     border-right: none;
+     border-top: none;
+}
+
+.borderless-top {
+    border-top: none;
+}
+
+.borderless-bottom{
+    border-bottom: none;
+}
+
+.borderless-bottom-left {
+     border-bottom: none;
+     border-left: none;
+}
+
+.borderless-bottom-right {
+     border-bottom: none;
+     border-right: none;
+}
+
+.borderless-left {
+    border-left: none;
+}
+
+.player-1-score {
+    font-size: 4rem;
+    font-weight: bold;
+    float: left;
+    margin-left: 10rem;
+}
+
+.player-2-score {
+    font-size: 4rem;
+    font-weight: bold;
+    float: right;
+    margin-right: 10rem;
+}
+
+.complete-message{
+    visibility: hidden;
+    position: relative;; 
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .4);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    flex-direction: column;
+    padding: 0.2rem 1rem;
+
+}
+
+.message-text {
+    margin: 0;
+    display: inline-block;
+}
+.ok-btn {
+    color: white;
+    font-size: 2rem;
+    background-color: darkslategray;
+    cursor: pointer;
+    border: none;
+    margin-left: 3rem;
+    padding: .5rem .5rem;
+}
+
+.complete-message button:hover{
+    background-color: black;
+}
