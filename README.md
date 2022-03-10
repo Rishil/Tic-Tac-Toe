@@ -1,5 +1,7 @@
 # Tic-Tac-Toe with an AI opponent
 
+[Playable here](https://rishil.github.io/Tic-Tac-Toe/).
+
 ## Overviev:
 This 3 x 3 game of Tic-Tac-Toe has been developed using JavaScript, HTML and CSS. It allows up-to two players to play against each other, or a single player against the AI.
 
